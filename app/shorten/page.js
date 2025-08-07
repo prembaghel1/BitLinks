@@ -76,7 +76,7 @@ const Shorten = () => {
             // transition={Bounce}
             />
 
-            <div className='mx-auto max-w-lg my-16 p-8 rounded-lg bg-purple-100 flex flex-col gap-4 shadow-md'>
+            <div className='mx-auto md:max-w-lg max-w-sm my-16 p-8 rounded-lg bg-purple-100 flex flex-col gap-4 shadow-md'>
                 <h1 className='font-bold text-2xl'>Generate your short URLs</h1>
                 <div className='flex flex-col gap-2'>
                     <input className='px-4 py-2 focus:outline-purple-600 rounded-md bg-white' type="text" placeholder='Enter your URL' name="" id="" value={url} onChange={(e) => seturl(e.target.value)} />
